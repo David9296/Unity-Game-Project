@@ -17,6 +17,8 @@ Platform assembly: C:\Users\--\Documents\SpaceRace\build1_Data\Managed\UnityEngi
 Loading C:\Users\--\Documents\SpaceRace\build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\--\Documents\SpaceRace\build1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\--\Documents\SpaceRace\build1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\--\Documents\SpaceRace\build1_Data\Managed\LitJson.dll (this message is harmless)
+Loading C:\Users\--\Documents\SpaceRace\build1_Data\Managed\LitJson.dll into Unity Child Domain
 - Completed reload, in  0.021 seconds
 Platform assembly: C:\Users\--\Documents\SpaceRace\build1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\--\Documents\SpaceRace\build1_Data\Managed\System.dll (this message is harmless)
@@ -24,6 +26,18 @@ desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.456131 ms
+UnloadTime: 3.780163 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.707902 ms
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 652.
+Total: 0.459472 ms (FindLiveObjects: 0.034022 ms CreateObjectMapping: 0.035344 ms MarkObjects: 0.373920 ms  DeleteObjects: 0.011230 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.125598 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 652.
+Total: 0.954620 ms (FindLiveObjects: 0.068706 ms CreateObjectMapping: 0.073991 ms MarkObjects: 0.788470 ms  DeleteObjects: 0.022791 ms)
+
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1e68 -> priority: 1 
+  Thread -> id: 190c -> priority: 1 

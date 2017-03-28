@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Player : MonoBehaviour {
 
@@ -10,12 +12,17 @@ public class Player : MonoBehaviour {
     private bool attacking = false;
     private float attackTimer = 0;
     private float attcCool = 0.3f;
+    public int currentHealth;
 
     public Collider2D attackTrigger;
 
 
     private Animator anim;
 
+    void Start()
+    {
+        setMaxHealth();
+    }
 
     void Awake()
     {
@@ -46,6 +53,11 @@ public class Player : MonoBehaviour {
             }
         }
 
+        if(currentHealth <= 0)
+        {
+            CheckIfGameOver();
+        }
+
         anim.SetBool("PlayerChop", attacking);
     }
 
@@ -55,19 +67,28 @@ public class Player : MonoBehaviour {
 
 
 
-
+    public void takeDamage(int damage)
+    {
+        currentHealth -= damage;
+    }
 
 
     public void CheckIfGameOver()
     {
-        if (playerHealth <= 0)
+        if (currentHealth <= 0)
             GameOver();
 
     }
 
+    public void setMaxHealth()
+    {
+        currentHealth = playerHealth;
+    }
+
+
     public void GameOver()
     {
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
 

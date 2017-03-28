@@ -15,13 +15,13 @@ public class SimplePlatformC : MonoBehaviour {
   
 
     private Rigidbody2D rb2d;
-    private Animator anim;
+  //  private Animator anim;
 
 
     // Use this for initialization
     void Awake()
     {
-        anim = GetComponent<Animator>();
+      //  anim = GetComponent<Animator>();
 
         rb2d = GetComponent<Rigidbody2D>();
     }

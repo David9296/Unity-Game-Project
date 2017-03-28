@@ -1,0 +1,18 @@
+[
+    {
+        "id": 0,
+        "title": "Red Herring",
+        "value": 6,
+        "slug": "RedHerring",
+        "stackable" :  false
+            
+    },
+    {
+        "id": 1,
+        "title": "Coin",
+        "value": 3,
+        "slug": "Coin",
+        "stackable": false
+
+    }
+]
