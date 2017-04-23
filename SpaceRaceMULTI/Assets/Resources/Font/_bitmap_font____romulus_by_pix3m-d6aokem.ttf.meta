@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a8c97e804a62154428cc9348bf4fd767
+timeCreated: 1492559830
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Romulus
+  fontNames:
+  - Romulus
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
